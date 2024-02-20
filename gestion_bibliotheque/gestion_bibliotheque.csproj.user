@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="View\auteur\Afficher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\auteur\Ajouter.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\auteur\IndexAuteur.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\auteur\Modifier.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\edition\Afficher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\edition\Ajouter.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\edition\IndexEdition.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\edition\Modifier.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\genre\Afficher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\genre\Ajouter.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\genre\IndexGenre.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\genre\Modifier.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\livres\Afficher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\livres\Ajouter.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\livres\IndexLivre.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\livres\Modifier.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\location\Afficher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\location\Ajouter.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\location\AjouterRetour.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\location\IndexLocation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\location\Modifier.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\retard\IndexRetard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\retard\Mail.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\WelcomeUser.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\auteur\Afficher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\auteur\Ajouter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\auteur\IndexAuteur.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\auteur\Modifier.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\edition\Afficher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\edition\Ajouter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\edition\IndexEdition.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\edition\Modifier.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\genre\Afficher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\genre\Ajouter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\genre\IndexGenre.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\genre\Modifier.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\livres\Afficher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\livres\Ajouter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\livres\IndexLivre.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\livres\Modifier.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\location\Afficher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\location\Ajouter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\location\AjouterRetour.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\location\IndexLocation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\location\Modifier.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\retard\IndexRetard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\retard\Mail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\WelcomeUser.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,29 @@
+﻿<Window x:Class="gestion_bibliotheque.View.retard.Mail"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:gestion_bibliotheque.View.retard"
+        mc:Ignorable="d"
+        Title="Mail" Height="600" Width="1300">
+    <Grid>
+        <Rectangle HorizontalAlignment="Center" Height="684" Stroke="Black" VerticalAlignment="Center" Width="1300" Fill="#FF1C1C1C" />
+
+
+        <Button Content="" HorizontalAlignment="Left" Margin="1137,28,0,0" VerticalAlignment="Top" Width="53" Click="Button_Click" Height="37">
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="../../ressources/back_page.png"/>
+            </Button.OpacityMask>
+            <Button.Background>
+                <ImageBrush ImageSource="/ressources/back_page.png"/>
+            </Button.Background>
+        </Button>
+
+        <TextBlock x:Name="DateLocation" HorizontalAlignment="Left" Margin="10,121,0,0" TextWrapping="Wrap" Text="Vous avez loue un livre le :" VerticalAlignment="Top" Height="30" Width="381" Foreground="White"/>
+        <TextBlock x:Name="DateRetourAttendue" HorizontalAlignment="Left" Margin="10,191,0,0" TextWrapping="Wrap" Text="La date limite pour le rendre était attendue pour le :" VerticalAlignment="Top" Height="30" Width="655" Foreground="White"/>
+        <TextBlock x:Name="JoursRetard" HorizontalAlignment="Left" Margin="10,314,0,0" TextWrapping="Wrap" Text="Vous avez actuellement des jours de retard :" VerticalAlignment="Top" Height="30" Width="507" Foreground="White"/>
+        <TextBlock x:Name="IdLivre" HorizontalAlignment="Left" Margin="10,262,0,0" TextWrapping="Wrap" Text="ID du livre :" VerticalAlignment="Top" Height="30" Width="200" Foreground="White"/>
+        <TextBlock x:Name="Utilisateur" HorizontalAlignment="Left" Margin="158,40,0,0" TextWrapping="Wrap" Text="Bonjour cher utilisateur de la bibliothèque VVA :" VerticalAlignment="Top" Height="30" Width="547" Foreground="White"/>
+
+    </Grid>
+</Window>

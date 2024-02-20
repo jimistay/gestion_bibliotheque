@@ -1,0 +1,23 @@
+﻿<Window x:Class="gestion_bibliotheque.View.livres.IndexLivre"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:gestion_bibliotheque.View.livres"
+        mc:Ignorable="d"
+        Title="IndexLivre" Height="700" Width="1300">
+    <Grid>
+        <Rectangle HorizontalAlignment="Center" Height="684" Stroke="Black" VerticalAlignment="Center" Width="1300" Fill="#FF1C1C1C" />
+
+        <Button Content="Ajouter un livre"  Click="Button_Click_2" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.525,-0.726" Height="88" FontWeight="Bold" FontSize="36" BorderBrush="#00707070" Background="#FFE29090" Margin="142,10,0,0" Panel.ZIndex="1" Width="500" FontFamily="Palatino Linotype"/>
+        <Button Content="Afficher tous les livres" Click="Button_Click"  HorizontalAlignment="Left" Margin="650,10,0,0" VerticalAlignment="Top" Height="88"  Width="500" FontWeight="Bold" FontSize="36" BorderBrush="#00707070" Background="#FFE29090"  Panel.ZIndex="1" FontFamily="Palatino Linotype"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="1180,32,0,0" VerticalAlignment="Top" Width="68" Click="Button_Click_1" BorderBrush="#00707070" Background="White" Height="44" Panel.ZIndex="2">
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="../../ressources/back_page.png"/>
+            </Button.OpacityMask>
+        </Button>
+        <Frame x:Name="Main" Source="./Afficher.xaml" Margin="0,164,0,0" NavigationUIVisibility="Hidden" Panel.ZIndex="4" />
+
+
+    </Grid>
+</Window>

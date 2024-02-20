@@ -1,0 +1,37 @@
+﻿<Page x:Class="gestion_bibliotheque.View.location.AjouterRetour"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:gestion_bibliotheque.View.location"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="1300"
+      Title="AjouterRetour">
+
+    <Grid>
+        <Label Content="Date de retour :" HorizontalAlignment="Left" Margin="441,103,0,0" VerticalAlignment="Top" Foreground="White" FontSize="22" FontFamily="Palatino Linotype" FontWeight="Bold" FontStyle="Italic"/>
+        <DatePicker x:Name="DateLocationTextBox" HorizontalAlignment="Left" Margin="650,107,0,0" VerticalAlignment="Top"/>
+
+        <Label Content="Livre :" HorizontalAlignment="Left" Margin="530,161,0,0" VerticalAlignment="Top" Foreground="White" FontSize="22" FontFamily="Palatino Linotype" FontWeight="Bold" FontStyle="Italic"/>
+        <ComboBox x:Name="LivreComboBox" DisplayMemberPath="TITRE" SelectedValuePath="LIVRE_ID" HorizontalAlignment="Left" Margin="650,167,0,0" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+
+        <Label Content="Utilisateur :" HorizontalAlignment="Left" Margin="473,213,0,0" VerticalAlignment="Top" Foreground="White" FontSize="22" FontFamily="Palatino Linotype" FontWeight="Bold" FontStyle="Italic"/>
+        <ComboBox x:Name="UtilisateurComboBox" DisplayMemberPath="NOMCPTE" SelectedValuePath="USER" HorizontalAlignment="Left" Margin="650,225,0,0" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+
+        <Button Content="Ajouter" VerticalAlignment="Top" Height="53" Margin="571,318,571,0"  FontSize="20" RenderTransformOrigin="0.5,0.5" Background="White" Panel.ZIndex="1" Foreground="Black" Click="AjouterRetour_Click" >
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border CornerRadius="30" Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+    </Grid>
+</Page>

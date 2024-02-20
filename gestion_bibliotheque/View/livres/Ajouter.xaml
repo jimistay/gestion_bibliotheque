@@ -1,0 +1,55 @@
+﻿<Page x:Class="gestion_bibliotheque.View.livres.Ajouter"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:gestion_bibliotheque.View.livres"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="1300"
+      Title="Ajouter">
+
+    <Grid>
+        <Label Content="Titre :" HorizontalAlignment="Left" Margin="188,62,0,0" VerticalAlignment="Top" Foreground="White" FontSize="22" FontFamily="Palatino Linotype" FontWeight="Bold" FontStyle="Italic"/>
+        <TextBox x:Name="TitreTextBox" HorizontalAlignment="Left" Margin="262,72,0,0" VerticalAlignment="Top" Width="151" Height="24"/>
+
+        <Label Content="Date de publication :" HorizontalAlignment="Left" Margin="42,108,0,0" VerticalAlignment="Top" Foreground="White" FontSize="22" FontFamily="Palatino Linotype" FontWeight="Bold" FontStyle="Italic"/>
+        <DatePicker x:Name="DatePublicationTextBox" HorizontalAlignment="Left" Margin="262,118,0,0" VerticalAlignment="Top"/>
+<!--
+        <Label Content="Disponible :" HorizontalAlignment="Left" Margin="129,164,0,0" VerticalAlignment="Top" Foreground="White" FontSize="22" FontFamily="Palatino Linotype" FontWeight="Bold" FontStyle="Italic"/>
+        <CheckBox x:Name="DisponibleTextBox" Content="" HorizontalAlignment="Left" Margin="274,179,0,0" VerticalAlignment="Top"/>
+        -->
+
+        <Label Content="Couverture :" HorizontalAlignment="Left" Margin="127,219,0,0" VerticalAlignment="Top" Foreground="White" FontSize="22" FontFamily="Palatino Linotype" FontWeight="Bold" FontStyle="Italic"/>
+        <TextBox x:Name="CouvertureTextBox" HorizontalAlignment="Left" Margin="259,234,0,0" VerticalAlignment="Top"  IsReadOnly="True" Width="151" Height="24"/>
+        <Button Content="Sélectionner" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="427,236,0,0" Click="SelectionnerImage_Click"/>
+
+        <Label Content="Genre :" HorizontalAlignment="Left" Margin="700,230,0,0" VerticalAlignment="Top" Foreground="White" FontSize="22" FontFamily="Palatino Linotype" FontWeight="Bold" FontStyle="Italic"/>
+        <ComboBox x:Name="GenreComboBox" DisplayMemberPath="NOM_GENRE" SelectedValuePath="NOM_GENRE" HorizontalAlignment="Left" Margin="800,236,0,0" VerticalAlignment="Top" Width="151" Height="24"/>
+
+        <Label Content="Auteur :" HorizontalAlignment="Left" Margin="692,164,0,0" VerticalAlignment="Top" Foreground="White" FontSize="22" FontFamily="Palatino Linotype" FontWeight="Bold" FontStyle="Italic"/>
+        <ComboBox x:Name="AuteurComboBox" DisplayMemberPath="NOM_AUTEUR" SelectedValuePath="NOM_AUTEUR" HorizontalAlignment="Left" Margin="800,176,0,0" VerticalAlignment="Top" Width="151" Height="24"/>
+
+        <Label Content="Edition :" HorizontalAlignment="Left" Margin="684,102,0,0" VerticalAlignment="Top" Foreground="White" FontSize="22" FontFamily="Palatino Linotype" FontWeight="Bold" FontStyle="Italic"/>
+        <ComboBox x:Name="EditionComboBox" DisplayMemberPath="NOM_EDITION" SelectedValuePath="NOM_EDITION" HorizontalAlignment="Left" Margin="800,114,0,0" VerticalAlignment="Top" Width="151" Height="24"/>
+
+
+
+       
+        <Button Content="Ajouter" VerticalAlignment="Top" Height="53" Margin="580,354,562,0"  FontSize="20" RenderTransformOrigin="0.5,0.5" Background="White" Panel.ZIndex="1" Foreground="Black" Click="AjouterLivre_Click" >
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border CornerRadius="30" Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+
+    </Grid>
+</Page>

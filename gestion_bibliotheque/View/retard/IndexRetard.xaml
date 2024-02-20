@@ -1,0 +1,55 @@
+﻿<Window x:Class="gestion_bibliotheque.View.retard.IndexRetard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:gestion_bibliotheque.View.retard"
+        mc:Ignorable="d"
+        Title="IndexRetard" Height="600" Width="1300">
+    <Grid Margin="0,0,0,-43">
+        <Rectangle HorizontalAlignment="Center" Height="684" Stroke="Black" VerticalAlignment="Center" Width="1300" Fill="#FF1C1C1C" />
+
+        <ListView x:Name="ListRetards" Margin="0,65,0,25"  ItemsSource="{Binding Retards}"   Width="1280" Background="#FF1C1C1C" Foreground="White" BorderBrush="#001C1C1C" FontSize="20"  MouseDoubleClick="MouseDoubleclick">
+            <ListView.Resources>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="Background" Value="#FF1C1C1C"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#FF2C2C2C"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </ListView.Resources>
+            <ListView.View>
+                <GridView>
+                    <!--
+                    <GridViewColumn Header="Id" DisplayMemberBinding="{Binding LOCATION_ID}" Width="100" />
+                    -->
+                    <GridViewColumn Header="Date de location" DisplayMemberBinding="{Binding DATE_LOCATION}" Width="300"/>
+                    <GridViewColumn Header="Date de retour obligatoire" DisplayMemberBinding="{Binding DATE_R_ATTENDUE}" Width="300"/>
+                    <GridViewColumn Header="Jours de retard" DisplayMemberBinding="{Binding JoursRetard}" Width="200"/>
+                    
+                    <GridViewColumn Header="Le référence du livre" DisplayMemberBinding="{Binding LIVRE_ID}" Width="200"/>
+                    <GridViewColumn Header="Par" DisplayMemberBinding="{Binding USER}" Width="200"/>
+                    <!--
+                    <GridViewColumn Header="Envoyer Mail">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="Envoyer" Click="EnvoyerMailButton_Click" Background="#FFE29090" Width="100" Height="50" FontFamily="Impact" FontSize="14"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    -->
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="" HorizontalAlignment="Left" Margin="1161,10,0,0" VerticalAlignment="Top" Width="50" Height="33" Click="Button_Click" >
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="../../ressources/back_page.png"/>
+            </Button.OpacityMask>
+            <Button.Background>
+                <ImageBrush ImageSource="/ressources/back_page.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>

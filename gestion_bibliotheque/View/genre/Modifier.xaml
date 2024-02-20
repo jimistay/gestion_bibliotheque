@@ -1,0 +1,33 @@
+﻿<Page x:Class="gestion_bibliotheque.View.genre.Modifier"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:gestion_bibliotheque.View.genre"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="1300"
+      Title="Modifier">
+
+    <Grid>
+
+        <TextBox x:Name="NomGenreTextBox" HorizontalAlignment="Left" Margin="650,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="151"  Height="24"/>
+        <Label Content="Nom du genre :" HorizontalAlignment="Left" Margin="455,115,0,0" VerticalAlignment="Top" Foreground="White" FontSize="22" FontFamily="Palatino Linotype" FontWeight="Bold" FontStyle="Italic"/>
+
+
+        <Button Content="Valider" VerticalAlignment="Top" Height="53" Margin="571,283,571,0"  FontSize="20" RenderTransformOrigin="0.5,0.5" Background="White" Panel.ZIndex="1" Foreground="Black" Click="ValiderButton_Click">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border CornerRadius="30" Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+    </Grid>
+</Page>
