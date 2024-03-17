@@ -61,7 +61,7 @@ namespace gestion_bibliotheque.View.retard {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/gestion_bibliotheque;V1.0.0.0;component/view/retard/indexretard.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/gestion_bibliotheque;component/view/retard/indexretard.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\View\retard\IndexRetard.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

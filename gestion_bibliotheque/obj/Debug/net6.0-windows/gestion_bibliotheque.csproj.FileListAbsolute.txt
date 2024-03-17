@@ -140,8 +140,6 @@ C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-window
 C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\View\location\Afficher.g.cs
 C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\View\location\Ajouter.g.cs
 C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\View\location\Modifier.g.cs
-C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\View\retour\Afficher.g.cs
-C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\View\retour\Ajouter.g.cs
 C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\View\WelcomeUser.g.cs
 C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\App.g.cs
 C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\gestion_bibliotheque_MarkupCompile.cache
@@ -162,8 +160,6 @@ C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-window
 C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\View\location\Afficher.baml
 C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\View\location\Ajouter.baml
 C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\View\location\Modifier.baml
-C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\View\retour\Afficher.baml
-C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\View\retour\Ajouter.baml
 C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\View\WelcomeUser.baml
 C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\gestion_bibliotheque.g.resources
 C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\gestion_bibliotheque.GeneratedMSBuildEditorConfig.editorconfig
@@ -186,8 +182,6 @@ C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-window
 C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\View\livres\IndexLivre.baml
 C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\View\location\IndexLocation.g.cs
 C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\View\location\IndexLocation.baml
-C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\View\retour\IndexRetour.g.cs
-C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\View\retour\IndexRetour.baml
 C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\View\location\AjouterRetour.g.cs
 C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\View\location\AjouterRetour.baml
 C:\laragon\www\gestion_bibliotheque\gestion_bibliotheque\obj\Debug\net6.0-windows\View\retard\IndexRetard.g.cs
